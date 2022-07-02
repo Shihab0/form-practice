@@ -1,0 +1,78 @@
+body{
+    background-color: #1c1717;
+    font-family: monospace;
+    line-height: 0.9rem;
+    
+}
+span{
+    
+    font-family: cursive;
+}
+.header{
+    text-align: center;
+    color: #ffff00;
+    text-shadow: #1111e7 2px 2px 3px;
+}
+h1{
+    font-weight: 900;
+    font-size: 2rem;
+}
+p{
+    font-weight: 300;
+}
+form{
+    width: 80%;
+    margin: 0 auto;
+
+}
+fieldset{
+    border: none;
+    padding: 1rem 0;
+    color: antiquewhite;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+input,
+select{
+    width: 100%;
+    margin: 5px 5px 0 0;
+    min-height: 1.5rem;
+    background-color: #6b6868;
+    color: #fff;
+    border: 1px solid #6b6868;
+    border-radius: 5px;
+}
+label{
+    display: block;
+    font-weight: bold;
+    color: antiquewhite;
+}
+input[type="submit"]{
+    display: block;
+    font-size: 1.2rem;
+    padding: 4px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: #482d2d;
+    cursor: pointer;
+    margin: 1rem auto;
+}
+input[type="file"]{
+    width: 200px;
+    padding: 2px;
+}
+input[type="radio"]{
+    width: unset;
+    vertical-align: middle;
+    margin: -1px 5px 0 0;
+    display: inline-block;   
+}
+input[type="checkbox"]{
+    width: unset;
+    vertical-align: middle;
+    margin: 0.5px 5px 0 0;
+    display: inline-block;
+   
+}
